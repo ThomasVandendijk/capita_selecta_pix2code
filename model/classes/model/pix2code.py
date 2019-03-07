@@ -2,7 +2,7 @@ from __future__ import absolute_import
 __author__ = 'Tony Beltramelli - www.tonybeltramelli.com'
 
 from keras.layers import Input, Dense, Dropout, \
-                         RepeatVector, LSTM, concatenate, \
+                         RepeatVector, GRU, concatenate, \
                          Conv2D, MaxPooling2D, Flatten
 from keras.models import Sequential, Model
 from keras.optimizers import RMSprop
